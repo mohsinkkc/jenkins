@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        sh "sh "\path\to\python\python --version""
+        sh "python --version"
       }
     }
     stage('program') {
       steps {
-        sh "sh "\path\to\python\python program.py""
+        sh "python program.py"
       }
     }
   }
