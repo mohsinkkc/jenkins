@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat "C:\Users\Mohasin Mohmad\AppData\Local\Microsoft\WindowsApps\python.exe"
+        sh "C:\Users\Mohasin Mohmad\AppData\Local\Microsoft\WindowsApps\python.exe"
       }
     }
     stage('program') {
       steps {
-        bat "C:\Users\Mohasin Mohmad\AppData\Local\Microsoft\WindowsApps\python.exe program.py"
+        sh "C:\Users\Mohasin Mohmad\AppData\Local\Microsoft\WindowsApps\python.exe program.py"
       }
     }
   }
