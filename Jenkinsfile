@@ -8,7 +8,7 @@ pipeline {
     }
     stage('program') {
       steps {
-        bat "python program.py"
+        bat "sys program.py"
       }
     }
   }
