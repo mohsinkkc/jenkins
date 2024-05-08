@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat 'python --version'
+        sh 'python --version'
       }
     }
     stage('program') {
       steps {
-        bat 'python program.py'
+        sh 'python program.py'
       }
     }
   }
