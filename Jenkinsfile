@@ -13,7 +13,7 @@ pipeline {
     }
     stage('run python script') {
       steps {
-        bat script: '"C:\\Users\\Mohasin Mohmad\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" program.py'
+        bat script: 'python.exe program.py'
       }
     }
   }
