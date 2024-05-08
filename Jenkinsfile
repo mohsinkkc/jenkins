@@ -14,7 +14,7 @@ pipeline {
     stage('run python script') {
       steps {
         bat 'dir'
-        bat script: '"C:\\Users\\Mohasin Mohmad\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" program.py'
+        bat 'python program.py'
       }
     }
   }
