@@ -13,7 +13,7 @@ pipeline {
     }
     stage('program') {
       steps {
-        bat "python program.py"
+        bat "python practice.py"
       }
     }
   }
