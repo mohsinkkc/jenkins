@@ -1,1 +1,1 @@
-C:\Users\Mohasin Mohmad\AppData\Local\Microsoft\WindowsApps\python.exe --version
+AppData\Local\Microsoft\WindowsApps\python.exe --version
