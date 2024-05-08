@@ -8,12 +8,12 @@ pipeline {
     }
     stage('checkout') {
       steps {
-                git branch: 'main', url: 'https://github.com/mohsinkkc/xduce.git'
+                git branch: 'main', url: 'https://github.com/mohsinkkc/jenkins.git'
             }
     }
     stage('program') {
       steps {
-        bat "python practice.py"
+        bat "python program.py"
       }
     }
   }
