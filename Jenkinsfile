@@ -6,9 +6,14 @@ pipeline {
         bat "import sys \n print(sys.version)"
       }
     }
+    stage('checkout') {
+      steps {
+                git branch: 'main', url: 'https://github.com/mohsinkkc/xduce.git'
+            }
+    }
     stage('program') {
       steps {
-        bat "sys program.py"
+        bat "python program.py"
       }
     }
   }
