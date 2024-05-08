@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat "prg.bat"
+        bat "python --version"
       }
     }
     stage('checkout') {
