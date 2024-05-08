@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat "import sys
-        print(sys.version)"
+        bat "import sys \n print(sys.version)"
       }
     }
     stage('program') {
