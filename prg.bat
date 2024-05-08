@@ -1,1 +1,1 @@
-\AppData\Local\Microsoft\WindowsApps\python.exe --version
+python --version
