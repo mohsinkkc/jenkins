@@ -11,9 +11,9 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/mohsinkkc/jenkins.git'
             }
     }
-    stage('program') {
+    stage('run python script') {
       steps {
-        bat "python program.py"
+        bat "C:\Users\Mohasin Mohmad\AppData\Local\Microsoft\WindowsApps\python.exe program.py"
       }
     }
   }
