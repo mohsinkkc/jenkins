@@ -1,7 +1,7 @@
-Pipeline
+pipeline
 {
     agent any
-    Stages{
+    stages{
         stage('version'){
             steps{
                 sh 'python --version'
