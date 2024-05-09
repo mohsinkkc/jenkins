@@ -4,7 +4,7 @@ FROM python:3.8
 WORKDIR /app
 
 # Copy the Python script into the container
-COPY your_python_script.py /app/
+COPY program.py /app/
 
 # Expose the port your Python application listens on
 EXPOSE 8080
